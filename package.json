@@ -1,0 +1,55 @@
+{
+  "name": "angular-nd-image-zoom",
+  "version": "1.2.2",
+  "scripts": {
+    "lint": "tslint src/**/*.ts",
+    "test": "tsc && karma start",
+    "prepare": "tsc && ngc",
+    "tsc": "tsc",
+    "ngc": "./node_modules/.bin/ngc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dattatrey93/angular-image-zoom.git"
+  },
+  "author": {
+    "name": "Narottam",
+    "email": "narottamdattatria@gmail.com"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "zoom",
+    "image-zoom",
+    "image zoom",
+    "magnify",
+    "hover",
+    "enhance",
+    "image"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "git@github.com:dattatrey93/angular-image-zoom.git/issues"
+  },
+  "main": "./index.js",
+  "devDependencies": {
+    "@angular/core": "^4.4.3",
+    "@angular/common": "^4.4.3",
+    "@angular/compiler": "^4.4.3",
+    "@angular/compiler-cli": "^4.4.3",
+    "@angular/platform-server": "^4.4.3",
+    "@angular/animations": "^4.4.3",
+    "@angular/platform-browser": "^4.4.3",
+    "codelyzer": "~3.2.1",
+    "rxjs": "^5.0.1",
+    "tslint": "~5.7.0",
+    "typescript": "2.3.4",
+    "zone.js": "^0.8.4",
+    "@types/protractor": "^4.0.0",
+    "@types/jasmine": "^2.5.40",
+    "@types/selenium-webdriver": "^2.53.39"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
